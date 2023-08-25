@@ -6,9 +6,9 @@ export default function Banner() {
 	return (
 		<div className="banner-container">
 			<div className="banner-text">
-				<h1># IN A CLASS OF OUR OWN</h1>
+				<h1># Trainee Tracker</h1>
 				<h2>
-					You can view milestones in just 1 click. <br />
+					You can view milestones Progress in just 1 click. <br />
 					Get started now!
 				</h2>
 			</div>

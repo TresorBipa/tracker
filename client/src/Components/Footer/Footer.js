@@ -52,7 +52,7 @@ const Footer = () => {
 					<br></br>
 					<medium className="ms-2 " style={{ color: "white" }}>
 						{" "}
-						Project Team - In a class of our own{" "}
+						Project Team - Trainee-Tracker{" "}
 					</medium>
 				</CDBBox>
 				<CDBBox display="flex gap-3">

@@ -1,13 +1,13 @@
 const BEYOND_SCORE = 3;
 const AT_SCORE = 2;
-const BEHIDE_SCORE = 1;
+const BEHIND_SCORE = 1;
 
 const getFactorScore = (actualScore, atMilestoneScore) =>
 	actualScore > atMilestoneScore
 		? BEYOND_SCORE
 		: actualScore === atMilestoneScore
 		? AT_SCORE
-		: BEHIDE_SCORE;
+		: BEHIND_SCORE;
 
 const getFinalScore = (actualScoreArr, atMilestoneScoreArr) => {
 	if (!actualScoreArr || !atMilestoneScoreArr) {

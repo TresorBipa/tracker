@@ -146,7 +146,7 @@ const Register = () => {
 					</div>
 				</div>
 				<form onSubmit={handleSubmit}>
-					<h3>Welcome To The Class Of Our Own App</h3>
+					<h3>Welcome To The CYF Trainee Tracker App</h3>
 					<p>Please fill all the fields below:</p>
 					<label>
 						Github Username:
